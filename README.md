@@ -4,7 +4,7 @@
 
 * [Aria2](https://github.com/aria2/aria2)是一个支持多种协议的下载工具
 * [YAAW](https://github.com/binux/yaaw)是纯HTML/CSS/JS编写的Aria2前端
-* [FileMAnager](https://github.com/hacdias/filemanager)是个可以在线管理文件的Caddy插件
+* [FileManager](https://github.com/hacdias/filemanager)是个可以在线管理文件的Caddy插件
 
 ## 使用
 1. 在Linux x64系统上[安装Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
@@ -24,4 +24,4 @@
 * `-e rpc=rpc`: Aria2的授权令牌，省略则使用默认值rpc
 * `-p 80:8080`: 把主机80端口映射到容器8080端口供Web访问
 * `-p 6800:6800`: 把主机6800端口映射到容器6800端口供RPC调用
-* `-v /downloads:/download`: 把主机`/downloads`目录挂载到容器`/download`目录用来存在下载的文件
+* `-v /downloads:/download`: 把主机`/downloads`目录挂载到容器`/download`目录用来存放下载的文件
