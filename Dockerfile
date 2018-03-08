@@ -30,7 +30,7 @@ RUN cd /aria2 \
 
 # download caddy server
 RUN cd /aria2 \
-    && wget -O caddy.zip https://mdown.win/dev/caddy.filemanager_v0.10.10_linux_amd64.zip \
+    && wget -O caddy.zip https://xiazai.download/program/caddy.filemanager_v0.10.10_linux_amd64.zip \
     && unzip caddy.zip \
     && rm caddy.zip
 
